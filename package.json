@@ -1,0 +1,16 @@
+{
+  "name": "plate",
+  "version": "1.0.0",
+  "description": "Sample for plate app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brady Gerndt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "pug": "^2.0.0-beta.12"
+  }
+}
