@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
-    "build": "tsc -p src/",
-    "build:watch": "tsc -p src/ -w",
+    "build": "tsc",
+    "build:watch": "tsc -w",
     "build:e2e": "tsc -p e2e/",
     "serve": "lite-server -c=bs-config.json",
     "serve:e2e": "lite-server -c=bs-config.e2e.json",
@@ -35,6 +35,7 @@
 
     "angular-in-memory-web-api": "~0.3.0",
     "systemjs": "0.19.40",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
     "zone.js": "^0.8.4"
