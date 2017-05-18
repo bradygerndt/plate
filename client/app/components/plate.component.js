@@ -15,7 +15,7 @@ var Plate = (function () {
 Plate = __decorate([
     core_1.Component({
         selector: 'plate',
-        templateUrl: './plate.html',
+        templateUrl: './partials/plate.html',
     })
 ], Plate);
 exports.Plate = Plate;

@@ -15,7 +15,7 @@ var AppHeader = (function () {
 AppHeader = __decorate([
     core_1.Component({
         selector: 'app-header',
-        templateUrl: './header.html',
+        templateUrl: './partials/header.html',
     })
 ], AppHeader);
 exports.AppHeader = AppHeader;
